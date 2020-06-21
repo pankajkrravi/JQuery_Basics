@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>JQuery Practice !!</title> 
+  <link rel="stylesheet" type="text/css" href="index.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+             integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+             crossorigin="anonymous"></script>
+             <!-- <link href="https://code.com/ui/1.10.4/themes/ui/jquery.min.js"> -->
+</head>
+<body>
+    <h1>JQuery Practive Session</h1>
+    <p>Goomo Holdings Paragraph!!</p>
+    <!-- <ul>
+        <li>Java tutorial</li> 
+        <li>SQL </li>
+        <li>JDBC tutorial</li>
+        <li>Servlet totorial</li>
+        <li>JPA tutorial</li>
+        <li>Hibernate </li>
+    </ul> -->
+    <!-- <script>
+     let design={ //object  designis created 
+       color:"blue",
+       background:"green",
+       border:"3px solid black"
+     }  </script> -->
+    <!-- <div class="hotels">
+       <img src="JQuety-pic/39.jpg">
+       <img src="JQuety-pic/photo-1439130490301-25e322d88054.jpeg">
+       <img src="JQuety-pic/photo-1520250497591-112f2f40a3f4.jpeg">
+       <img src="JQuety-pic/photo-1520250497591-112f2f40a3f4.jpeg">
+     </div> -->
+      
+     <!-- <script>
+      $(document).ready(function(){
+       $("button").click(function()
+       {
+         alert("Value : "+$("#testText").val());
+       })
+      });
+
+     </script>
+    <input type="text" id="testText" value="">
+    <button>Submit</button>
+ -->
+   <!-- <div class="hotels">
+     <img src="JQuety-pic/39.jpg">
+     <img src="JQuety-pic/photo-1439130490301-25e322d88054.jpeg">
+     <img src="JQuety-pic/photo-1520250497591-112f2f40a3f4.jpeg">
+     <img src="JQuety-pic/photo-1520250497591-112f2f40a3f4.jpeg">
+    </div> -->
+    <!-- <script>
+     $(document).ready(function()
+     {
+       $("button").click(function()
+         {
+            $("img").addClass("styleclass");
+         } 
+       )
+     });
+    </script>
+     <style>
+      .styleclass{
+        border: 5px solid red; 
+
+      }
+
+    </style>
+    <button>Try addClass()</button> -->
+    <!-- $(document).ready(function()
+    {
+      $("img").click(function()
+        {
+           $(this).hide();
+        } 
+      )
+    }); -->
+     <!-- <p>Start Typing !!!</p>
+    <input id="press" type="text" size="10">
+    <script>
+    $(document).ready(function()
+     {
+      $("input").on("keypress",function()
+     {
+       $("p:last").hide();
+     } )
+     });
+    </script> -->
+
+    <!-- //Hide(), show(), toggle()
+      <button class="button" id="hide">Hide</button>
+    <button class="button" id="show">Show</button>  
+    <div>
+      <img src="JQuety-pic/39.jpg">
+    </div>
+    <script>
+        $(document).ready(function()
+        {
+          $("#hide").click(function()
+          {
+            $("img").hide();
+          });
+          $("#show").click(function()
+          {
+              $("img").show();
+          });
+        })
+
+    </script> -->
+    <!-- ==================fadeOut() ============================------------>
+    <!-- <button>ByEE!!</button>
+    <div>
+      <img id ="one" src="JQuety-pic/39.jpg">
+      <img id ="two" src="JQuety-pic/photo-1439130490301-25e322d88054.jpeg">
+      <img id ="three" src="JQuety-pic/photo-1520250497591-112f2f40a3f4.jpeg">
+      <img id ="four" src="JQuety-pic/sld6.jpg">
+    </div>
+
+   <script>
+     $(document).ready(function()
+     {
+       $("button").click(function()
+       {
+         $("#one").fadeOut("slow");
+         $("#two").fadeOut("fast");
+         $("#three").fadeOut("slow");
+         $("#four").fadeOut("fast");
+       });
+     });
+   </script> -->
+   <!-- ---------------- ========= fadeIn();        ==========   ------------------ --> 
+<!-- <script>
+  $(document).ready(function()
+  {
+    $("button").click(function()
+    {
+      $("#one").fadeIn("slow");
+      $("#two").fadeIn("slow");
+      $("#three").fadeIn("fast");
+      $("#four").fadeIn(20000);
+    });
+  });
+</script>
+ <button>Namastee!!</button>
+ <div class="fade">
+     <div id="one" style="width: 200;height: 100px;display: none;background-color: orange;"></div><br>
+     <div id="two" style="width: 200;height: 100px;display: none;background-color: green"></div><br>
+     <div id="three" style="width: 200;height: 100px;display: none;background-color: yellow;"></div><br>
+     <div id="four" style="width: 200;height: 100px;display: none;background-color:red;"></div><br>
+ </div> -->
+   <!-- ================ slidwUp(), SlideDown() and Slidetoggle() =========== -->
+   <!-- <button>Slide Up</button>
+   <div id="div1" style="width: 200px;height: 60px;background-color: royalblue;"></div>
+   <script>
+     $("button").on("click",function()
+     {
+       $("#div1").slideUp("slow");
+
+     });
+   </script> -->
+   <!-- <button>Slide Down !!</button>
+   <div id="div1" style="width: 200px;height: 60px;display: none; background-color: royalblue;"></div>
+   <script>
+     $("button").on("click",function()
+     {
+       $("#div1").slideDown("slow");
+
+     });
+   </script> -->
+       <!-- =========== deaggavble()  ================================-->
+   <!-- <style>
+     #drag{
+       width: 200px;
+       height: 100px;
+       background-color: gray;
+     }
+   </style>
+<script>
+  $(function() {
+       $("#drag").draggable();
+  });
+</script>
+ <div id="drag">
+   <p>Drag me agound!!</p>
+ </div> -->
+
+ <!-- draggable() and droppable() -->
+     <!-- <img id="img1" src="JQuety-pic/39.jpg">
+     <style>
+       #drop{
+         width: 400px;
+         height: 300px;
+         float: right;
+         background-color: aquamarine;
+
+       }
+     </style>
+     <script>
+       $(function() {
+         $("#img1").draggable();
+         $("#drop").droppable();
+       })
+     </script>
+     <div id="drop">
+
+      <p>My  Home </p>
+     </div> -->
+
+
+   <input id="date" type="text" size="10">
+   <script>
+     $("#date").datepicker();
+   </script>
+
+</body>
+</html> 

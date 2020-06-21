@@ -16,7 +16,7 @@ addclass();  ---> $(selector).addclass(classname);
 removeclass(); --> $(selector).removeclass(classname);
 toggleclass();  --> $(selector).roggleclas(classname);
 
-JQueryEvents:----
+JQueryEvents:-
 ===========================
 hide();  --> $(selector).hide(cpeed,callback);
 on(); --> $(selector).keypress(function);

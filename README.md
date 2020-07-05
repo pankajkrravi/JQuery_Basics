@@ -28,7 +28,7 @@ slideDown(); --> $(selector).slideDown(speed, callback);
 slideUp();  --> $(selector).slideUp(speed, callback);
 slidetoggle(); --> $(selector).slidetoggle(speed, callback);
 
-JQuety UserInterface:-
+JQuery UserInterface:-
 =====================================================
 draggable();  ---> $(selector).draggable();
 droppable();  --> $(selector).droppable();
